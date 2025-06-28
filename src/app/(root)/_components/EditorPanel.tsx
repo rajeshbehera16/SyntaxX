@@ -191,8 +191,6 @@ function EditorPanel() {
                     padding: {
                       top: window.innerWidth < 768 ? 12 : 20,
                       bottom: window.innerWidth < 768 ? 12 : 20,
-                      left: window.innerWidth < 768 ? 8 : 16,
-                      right: window.innerWidth < 768 ? 8 : 16,
                     },
                     renderWhitespace: "selection",
                     fontFamily:
@@ -205,7 +203,7 @@ function EditorPanel() {
                     lineHeight: window.innerWidth < 768 ? 1.5 : 1.7,
                     letterSpacing: window.innerWidth < 768 ? 0.2 : 0.3,
                     roundedSelection: true,
-                    cursorSmoothCaretAnimation: true,
+                    cursorSmoothCaretAnimation: "on",
                     selectionHighlight: false,
                     wordWrap: window.innerWidth < 768 ? "on" : "off",
                     scrollbar: {
